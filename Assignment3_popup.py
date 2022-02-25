@@ -20,5 +20,5 @@ if result=="You entered: Test Data":
     print("pass")
 
 print("Result is matching")
-#driver.switch_to.alert.send_keys("Test sukant")
-#driver.close()
+#driver.switch_to.alert.send_keys...
+
