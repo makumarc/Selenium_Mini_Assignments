@@ -5,7 +5,6 @@ from selenium.webdriver.common.by import By
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 driver = webdriver.Chrome(executable_path="/Users/makumarc/PycharmProjects/Selenium_Assignment2/venv/bin/chromedriver")
-
 driver.get("https://the-internet.herokuapp.com/")
 driver.implicitly_wait(2)
 driver.find_element(By.LINK_TEXT, "JavaScript Alerts").click()
